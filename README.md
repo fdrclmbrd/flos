@@ -16,4 +16,4 @@ Currently, the flos installation script works on Arch Linux based systems and it
 
 ### Window Managment
 
-Since there is no panel always on screen, it is necessary to have a way to reach any window on any virtual desktop quickly: this is done via a simple Python script which generate a temporary desktop file in ''~/.local/share/applications/'' floder for every opened window, Rofi to parse them and ''hyprctl'' to move focus to the desired window. 
+Since there is no panel always on screen, it is necessary to have a way to reach any window on any virtual desktop quickly: this is done via a simple Python script which generate a temporary desktop file in ``~/.local/share/applications/`` floder for every opened window, Rofi to parse them and ``hyprctl`` to move focus to the desired window. 
