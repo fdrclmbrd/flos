@@ -1,5 +1,7 @@
 # flOS - A collection of software to turn Hyprland window manager into a fully functional desktop environment
 
+:warning: *DISCLAIMER*: This repo is still in building phase. Stay tuned for more in the next few days :warning:
+
 ## What's flOS?
 
 Hyprland is one of the gratest Wayland compositor and window manager aviable today which main strenght sits in the few number of softwares bundled with its installation. It is, hence, up to the end-user to install all the necessary software in order "to make Wayland / Hyprland / other apps work correctly", quoting Hyprland's wiki.
