@@ -22,6 +22,6 @@ Since there is no panel always on screen, it is necessary to have a way to reach
 
 #### GTK+
 
-To the best of my knowledge, it is not possible to set GTK+ theme correctly and permanently with any software. In order to achieve, as suggested in [Sway Wiki](https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland "GTK 3 settings on Wayland") this functionality is provided by ``gtk-full-theme-manager.sh``, a simple shell script, which sets application theme, icon theme, cursor theme and font for GTK+ applications via ``gsettings``.
+To the best of my knowledge, it is not possible to set GTK+ theme correctly and permanently with any software under Wayland. In order to achieve this result, this functionality is provided by ``gtk-full-theme-manager.sh`` following what suggested in [Sway Wiki](https://github.com/swaywm/sway/wiki/GTK-3-settings-on-Wayland "GTK 3 settings on Wayland"). This a simple shell script sets application theme, icon theme, cursor theme and font for GTK+ applications via ``gsettings``.
 
 Currently, this script works by assigning ``APPLICATION_THEME``, ``ICON_THEME``, ``CURSOR_THEME`` and ``FONT`` variables to a name of an installed application theme, icon theme, cursor theme and font rispectively. 
